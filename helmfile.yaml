@@ -1,0 +1,13 @@
+environments:
+  default: {}
+
+---
+repositories:
+  - name: argo
+    url: https://argoproj.github.io/argo-helm
+
+releases:
+  - name: example
+    chart: argo/argo-cd
+    version: 7.6.1
+    namespace: argocd
