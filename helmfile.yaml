@@ -9,5 +9,5 @@ repositories:
 releases:
   - name: example
     chart: argo/argo-cd
-    version: 7.6.1
+    version: 7.6.10
     namespace: argocd
