@@ -7,11 +7,3 @@ dependencies = [
     "mypy ==1.12.*",
     "ruff ==0.8.1",
 ]
-
-[[tool.uv.index]]
-name = "example"
-url = "https://pypi.org/simple/"
-explicit = true
-
-[tool.uv.sources]
-ruff = { index = "example" }

@@ -13,7 +13,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "mypy", specifier = "==1.12.*" },
-    { name = "ruff", specifier = "==0.8.1", index = "https://pypi.org/simple/" },
+    { name = "ruff", specifier = "==0.8.1" },
 ]
 
 [[package]]
@@ -46,7 +46,7 @@ wheels = [
 [[package]]
 name = "ruff"
 version = "0.8.1"
-source = { registry = "https://pypi.org/simple/" }
+source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/95/d0/8ff5b189d125f4260f2255d143bf2fa413b69c2610c405ace7a0a8ec81ec/ruff-0.8.1.tar.gz", hash = "sha256:3583db9a6450364ed5ca3f3b4225958b24f78178908d5c4bc0f46251ccca898f", size = 3313222 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a2/d6/1a6314e568db88acdbb5121ed53e2c52cebf3720d3437a76f82f923bf171/ruff-0.8.1-py3-none-linux_armv6l.whl", hash = "sha256:fae0805bd514066f20309f6742f6ee7904a773eb9e6c17c45d6b1600ca65c9b5", size = 10532605 },
