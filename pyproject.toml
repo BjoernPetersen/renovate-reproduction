@@ -1,0 +1,17 @@
+[project]
+name = "app"
+version = "1.0.0"
+requires-python = "==3.13.*"
+
+dependencies = [
+    "mypy ==1.12.*",
+    "ruff ==0.8.2",
+]
+
+[[tool.uv.index]]
+name = "example"
+url = "https://pypi.org/simple/"
+explicit = true
+
+[tool.uv.sources]
+ruff = { index = "example" }
