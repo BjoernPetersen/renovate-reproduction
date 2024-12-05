@@ -11,4 +11,4 @@ dependencies = [
 [[tool.uv.index]]
 name = "example"
 url = "https://pypi.org/simple/"
-explicit = true
+#explicit = true
